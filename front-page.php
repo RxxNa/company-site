@@ -31,7 +31,7 @@
         <h2>製品情報</h2>
         <div>
           <p>本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p>
-          <div class="top-business_btn"><a class="btn" href="product_line.html">詳しくはこちら</a></div>
+          <div class="top-business_btn"><a class="btn" href="<?php echo home_url(); ?>/product">詳しくはこちら</a></div>
         </div>
       </section>
     </article>

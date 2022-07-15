@@ -7,12 +7,12 @@
 </p>
 <div class="btn-wrap">
 <a href="" class="btn btn-primary no_link">TEL：00-0000-0000</a>
-<a href="contact.html" class="btn btn-primary">メールでのお問い合わせ</a>
+<a href="<?php echo home_url(); ?>/contact" class="btn btn-primary">メールでのお問い合わせ</a>
 </div>
 </div>
 <div class="copyright">
 <p>Copyright © RUPRESS All Rights Reserved.</p>
-<p><a href="privacy.html">プライバシーポリシー</a></p>
+<p><a href="<?php echo home_url(); ?>/privacy">プライバシーポリシー</a></p>
 </div>
 </footer>
 

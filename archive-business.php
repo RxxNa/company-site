@@ -2,7 +2,7 @@
 
 <?php $args = array(
   'post_type' => 'business',
-  'p' => '30'
+  'p' => '32'
 );
 $posts_array = get_posts($args); ?>
 <?php foreach ($posts_array as $post) : setup_postdata($post); ?>

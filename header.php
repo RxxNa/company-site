@@ -15,15 +15,15 @@
 
 <body>
 <header>
-<h1><a href="index.html">RUPRESS</a></h1>
+<h1><a href="<?php echo home_url(); ?>">RUPRESS</a></h1>
 <nav>
 <ul>
-<li><a href="index.html"><span>TOP</span></a></li>
-<li><a href="company.html"><span>会社案内</span></a></li>
-<li><a href="business.html"><span>事業内容</span></a></li>
-<li><a href="product_line.html"><span>製品情報</span></a></li>
-<li><a href="recruit.html"><span>採用情報</span></a></li>
-<li><a href="contact.html"><span>お問い合わせ</span></a></li>
+<li><a href="<?php echo home_url(); ?>"><span>TOP</span></a></li>
+<li><a href="<?php echo home_url(); ?>/company"><span>会社案内</span></a></li>
+<li><a href="<?php echo home_url(); ?>/business"><span>事業内容</span></a></li>
+<li><a href="<?php echo home_url(); ?>/product"><span>製品情報</span></a></li>
+<li><a href="<?php echo home_url(); ?>/recruit"><span>採用情報</span></a></li>
+<li><a href="<?php echo home_url(); ?>/contact"><span>お問い合わせ</span></a></li>
 </ul>
 </nav>
 </header>
